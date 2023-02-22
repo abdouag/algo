@@ -1,0 +1,13 @@
+ALGORITHM algorithm_name
+VAR
+soit/ On ne sait jamais. : chaine de caractéres
+soit . : un entier ;
+    
+BEGIN
+Ecrire (On ne sait jamais. )
+tant-que (On ne sait jamais. ≠ '.') si (On ne sait jamais.= 'e')
+. <- .+1;
+
+END
+fin-si
+lire( on ne sait jamais.) ; fin tant-que ecrire(.) ;
